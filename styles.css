@@ -19,10 +19,45 @@
     transform: translate(-50%, -50%);
   }
 
-  .image-center {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.graph-red {
+  border-width: 5px;
+  border-style: solid;
+  padding: 40px;
+  background-color: red;
+}
+.graph-amber {
+  border-width: 5px;
+  border-style: solid;
+  padding: 40px;
+  background-color: orange;
+}
+.graph-green {
+  border-width: 5px;
+  border-style: solid;
+  padding: 40px;
+  background-color: green;
+}
+
+.service-red {
+  background-color: red;
+}
+.service-amber {
+  background-color: orange;
+}
+.service-green {
+  background-color: green;
+}
+
+.container-size {
+  border-width: 5px;
+  border-style: solid;
+  padding: 20px;
+}
+
+.container-title {
+  font-size: 100px;
+}
+
+  .title {
+    overflow: hidden;
   }
