@@ -24,38 +24,48 @@
   border-style: solid;
   padding: 40px;
   background-color: red;
+  border-radius: 25px;
+  margin: 10px;
 }
 .graph-amber {
   border-width: 5px;
   border-style: solid;
   padding: 40px;
   background-color: orange;
+  border-radius: 25px;
+  margin: 10px;
 }
 .graph-green {
   border-width: 5px;
   border-style: solid;
   padding: 40px;
-  background-color: green;
+  background-color: lightgrey;
+  border-radius: 25px;
+  margin: 10px;
 }
 
 .service-red {
   background-color: red;
+  margin: 10px;
 }
 .service-amber {
   background-color: orange;
+  margin: 10px;
 }
 .service-green {
-  background-color: green;
+  background-color: lightgrey;
+  margin: 10px;
 }
 
 .container-size {
   border-width: 5px;
   border-style: solid;
   padding: 20px;
+  border-radius: 25px;
 }
 
 .container-title {
-  font-size: 100px;
+  font-size: 70px;
 }
 
   .title {
