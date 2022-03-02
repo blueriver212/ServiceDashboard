@@ -21,12 +21,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
         </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" type="image/x-icon" href="informed_logo.png">
+    
 </head>
 
 <body>
     <nav class="navbar navbar-collapse navbar-expand-lg navbar-light topnav-centered py-3"
         style="background-color: #0064ff;">
-        <a class="display-1 container-title" style="color: white; font-size: 200px;">JAQU Service Dashboard</a>
+        <a class="display-1 container-title" style="color: white; font-size: 200px; white-space: nowrap;">JAQU Service Dashboard</a>
         <div class="collapse navbar-collapse">
             <img src="informed_logo.png">
         </div>
@@ -51,21 +54,11 @@
             <img class="graph-green" src="graph.png">
             <img class="graph-green" src="graph.png">
             <img class="graph-green" src="graph.png">
-            <img class="graph-green" src="graph.png">
         </div>
 
-
-        <script>
-            $("#red-warn").click(() => {
-                setInterval(() => {
-                    $("#red-warn").fadeIn();
-                    $("#red-warn").fadeOut();
-                }, 700)
-            })
-        </script>
+        <script src="flash.js"></script>
+        
 </body>
 </div>
-
-
 
 </html>

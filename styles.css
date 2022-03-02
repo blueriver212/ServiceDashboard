@@ -31,7 +31,7 @@
   border-width: 5px;
   border-style: solid;
   padding: 40px;
-  background-color: orange;
+  background-color: #ff9900;
   border-radius: 25px;
   margin: 10px;
 }
@@ -39,7 +39,7 @@
   border-width: 5px;
   border-style: solid;
   padding: 40px;
-  background-color: lightgrey;
+  background-color: #a7a4a4;
   border-radius: 25px;
   margin: 10px;
 }
@@ -49,11 +49,11 @@
   margin: 10px;
 }
 .service-amber {
-  background-color: orange;
+  background-color: #ff9900;
   margin: 10px;
 }
 .service-green {
-  background-color: lightgrey;
+  background-color: #a7a4a4;
   margin: 10px;
 }
 
@@ -70,4 +70,13 @@
 
   .title {
     overflow: hidden;
+  }
+
+  .blink {
+    animation: blinker 1s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0.0;
+    }
   }
